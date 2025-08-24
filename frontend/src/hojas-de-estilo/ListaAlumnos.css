@@ -1,0 +1,115 @@
+.contenedor-lista-alumnos{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1{
+    margin: 0 20px 0 20px;
+}
+
+#contador{
+    padding: 15px;
+    width: 20px;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+    border: 3px solid lightblue;
+}
+
+.tabla{
+    border-collapse: collapse;
+    min-width: 300px;
+}
+
+th,td{
+    padding: 20px;
+    border-bottom: 1px lightgray solid;
+}
+
+tr:nth-child(even) {
+  background-color: #e9e6e6;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.contenedor-iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.boton-icono{
+    max-width: 30px;
+    max-height: 25px;
+}
+
+#boton-eliminar, #boton-actualizar, #boton-guardar{
+    fill: white;
+    cursor:pointer;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+}
+
+#boton-eliminar{
+    background-color: rgb(186, 23, 23);
+}
+#boton-actualizar, #boton-guardar{
+    background-color: rgb(43, 43, 244);
+}
+
+#boton-guardar{
+    color: white;
+    padding: 12px;
+}
+
+
+
+.boton-submit{
+    color: white;
+    background-color: rgb(43, 43, 244);
+    cursor:pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid lightblue;
+    margin-top: 15px;
+}
+
+.boton-submit:hover{
+    background-color: blue;
+}
+
+#boton-volver{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 25vh;
+    padding: 5px;
+}
+
+#icono-volver{
+    margin-right: 5px;
+}
+
+.link-volver{
+    text-decoration: none;
+}
