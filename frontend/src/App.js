@@ -11,7 +11,7 @@ function App() {
         <Routes>
         
           <Route 
-            path="/registro" 
+            path="/" 
             element={<FormularioRegistro />}
           />
           <Route 

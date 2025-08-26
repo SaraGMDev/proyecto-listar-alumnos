@@ -41,7 +41,7 @@ function FormularioRegistro(){
         } 
 
         try{
-            const res = await axios.post('http://localhost:3001/api/alumnos/registro', { 
+            const res = await axios.post('http://localhost:3001/api/alumnos/', { 
                 nombre: nombreAlumno, // el segundo valor, es el parámetro que ponemos en el useState
                 curso: curso,
                 email: emailAlumno, 

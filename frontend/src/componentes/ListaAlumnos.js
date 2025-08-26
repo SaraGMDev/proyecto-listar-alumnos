@@ -116,7 +116,7 @@ return(
                 <span id='contador'>{contador}</span>   
             </div>
             
-            <Link to='/registro' className='link-volver'>
+            <Link to='/' className='link-volver'>
                 <button 
                 id='boton-volver'
                 className='boton'
